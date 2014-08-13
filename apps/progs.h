@@ -147,7 +147,9 @@ FUNCTION functions[] = {
 	{FUNC_TYPE_GENERAL,"ocsp",ocsp_main},
 #endif
 	{FUNC_TYPE_GENERAL,"prime",prime_main},
+#if 0 /* ANDROID */
 	{FUNC_TYPE_GENERAL,"ts",ts_main},
+#endif
 #ifndef OPENSSL_NO_SRP
 	{FUNC_TYPE_GENERAL,"srp",srp_main},
 #endif
